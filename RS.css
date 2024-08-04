@@ -1,1 +1,157 @@
-ddddd
+.fhp {
+    /*Contour du réseau*/
+    width: 100%;
+    height: fit-content;
+    background-color: #f5f5f5;
+    border-radius: 0.3rem;
+    position: relative;
+    border: 10px solid white;
+    outline: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fhp1 {
+    /*Fond avec dégradé + gif*/
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 10%,
+        #f5f5f5 95%
+      ),
+      url(https://i.imgur.com/8t4Gvrh.gif);
+    background-size: 100% 200px; /* Adjusted size */
+    background-repeat: no-repeat; /* Prevents repeating the background image */
+    width: 100%;
+    height: fit-content;
+    border-radius: 0.3rem;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .fhp1 > .logo {
+    /*Faux logo de l'application*/
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    background-image: url(https://i.imgur.com/Uy6d4xa.png);
+    background-size: 100% 100%;
+  }
+  
+  .fhp2 {
+    /*Cadre intérieur*/
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .fhp-avatar {
+    /*Avatar à changer par le membre*/
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 70px;
+    z-index: 997;
+    
+  }
+  
+  .fhp-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    outline-offset: 5px;
+    outline: 4px solid white;
+    z-index: 997;
+    
+  }
+  
+  .fhp3 {
+    /*Boite d'entête avec nom, pseudo et liens*/
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0.3rem;
+    margin-top: -45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0 15px 0;
+    box-sizing: border-box;
+  }
+  
+  .fhp3 > span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .fhp3 > p {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .fhp4 {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    margin-top: 10px;
+    position: relative; /* Ensure the container is the reference for absolutely positioned children */
+    overflow: hidden;
+  }
+  
+  .fhp4 > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .fhp4 > div:nth-of-type(1) > span {
+    Padding: 5px 15px;
+    border-radius: 0.3rem;
+    background-color: rgba(0,0,0,0.1);
+    width: fit-content;
+    font-weight: 600;
+  }
+  
+  .fhp4 > div:nth-of-type(1) > p {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    color: rgba(0,0,0,0.5);
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+  .hashtag {
+    width: 100%;
+    height: fit-content;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hashtag p {
+    margin: 0;
+    padding: 5px 20px;
+    background-color: #9E9DEB;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    letter-spacing: 0.05rem;
+    width: fit-content;
+  }
