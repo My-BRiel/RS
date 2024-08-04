@@ -130,6 +130,13 @@
     padding: 10px;
     box-sizing: border-box;
     font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .fhp4 > .poste > div img {
+    width: 100%;
   }
   
   .hashtag {
