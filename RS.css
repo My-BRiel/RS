@@ -106,13 +106,13 @@
     overflow: hidden;
   }
   
-  .fhp4 > div:nth-of-type(1) {
+  .fhp4 > .poste {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  .fhp4 > div:nth-of-type(1) > span {
+  .fhp4 > .poste > span {
     Padding: 5px 15px;
     border-radius: 0.3rem;
     background-color: rgba(0,0,0,0.1);
@@ -120,7 +120,7 @@
     font-weight: 600;
   }
   
-  .fhp4 > div:nth-of-type(1) > p {
+  .fhp4 > .poste > div {
     width: 100%;
     margin: 0;
     text-align: justify;
